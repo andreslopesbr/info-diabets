@@ -1,0 +1,31 @@
+div.content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px;
+
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.description h1 {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.description .wrapper {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.description .wrapper p {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description .wrapper img {
+  width: 320px;
+  margin: 0 auto;
+}

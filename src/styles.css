@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body,
+html {
+  background-color: #f0f2f5;
+}
